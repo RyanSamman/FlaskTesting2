@@ -6,6 +6,7 @@ from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+# https://gist.github.com/bradtraversy/0029d655269c8a972df726ed0ac56b88
 
 load_dotenv()
 DATABASE_URL = os.getenv("DATABASE_URL")
